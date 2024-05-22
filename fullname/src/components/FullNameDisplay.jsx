@@ -34,7 +34,7 @@ export default function FullNameDisplay() {
                 <input type='text' name="lastName" value={formData.lastName} onChange={handleChange} required/>
             </label>
             <br/>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
         </form>
         {displayFullName ? 
         fullNameEle: ''}
