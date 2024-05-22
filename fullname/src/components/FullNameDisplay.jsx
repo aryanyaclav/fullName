@@ -23,6 +23,7 @@ export default function FullNameDisplay() {
                     </div>
   return (
     <div>
+        <h1> Full Name Display</h1>
         <form className={styles.formDiv} onSubmit={handleSubmit}>
             <label>
                 First Name:
